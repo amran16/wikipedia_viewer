@@ -1,0 +1,37 @@
+body{
+  background: linear-gradient(to left, #16A085 , #F4D03F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+#searchItem{
+  width: 90% 10px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin: 40px auto;
+  display:block;
+}
+
+a{
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+#display{
+ margin-top:1%;
+ font-family:'Lobster';
+}
+
+
