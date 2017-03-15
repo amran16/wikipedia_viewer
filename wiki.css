@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
-  background: linear-gradient(to left, #16A085 , #F4D03F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #16A085 , #F4D03F); 
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -8,30 +11,53 @@ body{
 }
 
 h1{
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: cursive;
   font-size: 50px;
   padding-bottom: 50px;
 }
 
 #searchItem{
-  width: 90% 10px;
+  width: 61%;
   height: 50px;
-  box-sizing: border-box;
   border: 3px solid gray;
   border-radius: 10px;
-  margin: 40px auto;
+  margin: 20px auto;
   display:block;
+  font-size: 20px;
 }
 
-a{
+
+.button {
   font-size: 20px;
-  color: black;
-  text-decoration: underline;
+  font-weight: bold;
+  display: block;
+  margin: 20px;
+  padding-bottom: 10px;
+  color: #8f42f4;
 }
 
 #display{
- margin-top:1%;
  font-family:'Lobster';
+  width: 60%;
+  margin-bottom: 5px;
+  margin: auto;
+  list-style: none;
+ 
 }
 
+li{
+  margin: 5px 0px;
+  padding: 5px 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+p{
+  font-size: 20px;
+}
+
+li:hover{  
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8333FF;
+}
 

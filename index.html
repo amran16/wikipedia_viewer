@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wikipedia Viewer</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="wiki.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+  </head>
+  <body>
+   <div class="container">
+     <div class="text-center">
+
+     <h1>Wikipedia Viewer</h1>
+
+     <form action="demo_form.asp" method="get">
+
+       <input type="text" id="searchItem" placeholder="Search Wikipedia"><br>
+
+       <button id="search" type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+       <a class = "button" href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Click here for random search <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+
+       <div id="display"></div>
+  
+     </form>
+
+    </div>
+   </div>
+   
+   <script type="text/javascript" src="wiki.js"></script>
+  </body>
+</html>
