@@ -7,7 +7,7 @@ $(document).ready(function(){
 
      var searchItem = $('#searchItem').val();
 
-     var url = 'https://en.wikipedia.org/w/api.php?action=opensearch&origin=*&search=' + searchItem + '&format=json';
+     var url = 'https://en.wikipedia.org/w/api.php?action=opensearch&origin=*&search=' +                   searchItem + '&format=json';
       
      $.getJSON(url, function(data){
 
@@ -16,11 +16,7 @@ $(document).ready(function(){
           $('#display').append('<li><a href=' + data[3][i] +'><h2>' + data[1][i] +'</h2></a>' +'<p>' + data[2][i] +
             '</p></li>');
         }
-
         $('#searchItem').val('');
-
      });
-
   });
-
 });

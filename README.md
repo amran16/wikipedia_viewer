@@ -1,6 +1,6 @@
 # Wikipedia Viewer
 
-This project uses an API and searches Wikipedia entries and displays searches on the page
+This project uses Wikipedia's API, searches entries and displays searches on the page.
 
 
 This project was built according to:
